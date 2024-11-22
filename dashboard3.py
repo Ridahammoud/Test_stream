@@ -33,8 +33,8 @@ fichiers_groupes = {
     "Semaine": r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_par_semaine.xlsx",
     "Mois": r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_par_mois.xlsx",
     "Trimestre": r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_par_trimestre.xlsx",
-    "Année": r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_par_annee.xlsx",
-    "Total": r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_total.xlsx"
+    "Année": "resultat_par_annee.xlsx",
+    "Total": "resultat_total.xlsx"
 }
 
 # Charger le fichier correspondant au regroupement sélectionné
