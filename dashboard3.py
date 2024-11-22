@@ -8,8 +8,8 @@ import pandas as pd
 import streamlit as st
 
 # Charger les données Excel
-fichier = r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_par_mois.xlsx"  # Changez pour le fichier voulu
-df = pd.read_excel(fichier)
+fichier = "resultat_par_mois.xlsx"  # Changez pour le fichier voulu
+df = pd.read_excel(fichier.xlsx)
 
 # Vérifier les colonnes du fichier
 st.write("Colonnes du fichier chargé :", df.columns)
@@ -29,10 +29,10 @@ option = st.selectbox(
 
 # Charger les données correspondantes
 fichiers_groupes = {
-    "Jour": r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_par_jour.xlsx",
-    "Semaine": r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_par_semaine.xlsx",
-    "Mois": r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_par_mois.xlsx",
-    "Trimestre": r"C:\Users\rhamm\Desktop\Projet Mounir Extraction\resultat_par_trimestre.xlsx",
+    "Jour": "resultat_par_jour.xlsx",
+    "Semaine": "resultat_par_semaine.xlsx",
+    "Mois": "resultat_par_mois.xlsx",
+    "Trimestre": "resultat_par_trimestre.xlsx",
     "Année": "resultat_par_annee.xlsx",
     "Total": "resultat_total.xlsx"
 }
